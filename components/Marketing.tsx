@@ -7,16 +7,16 @@ import clickupbrain from "@/app/assets/images/clicckupbrain.svg"
 
 export function Marketing() {
   return (
-    <div className="w-full max-w-4xl mx-auto border rounded-xl herofont border-r-pink-400 border-t-pink-500 border-opacity-50  "
+    <div className="w-full  max-w-4xl mx-auto border rounded-xl herofont border-r-pink-400 border-t-pink-500 border-opacity-50  "
     
     
     >
       <div 
-        className="relative overflow-hidden  rounded-3xl p-8 shadow-lg "
+        className="relative   overflow-hidden  rounded-3xl p-8 shadow-lg "
        
       >
-        <Image src={marketing} alt="marketing" className="absolute inset-0 bg-opacity-30" />
-        <div className="  grid grid-cols-1 md:grid-cols-2 gap-8">
+        <Image src={marketing} alt="marketing" className="absolute   inset-0 bg-opacity-30" />
+        <div className="  grid grid-cols-1 md:grid-cols-2 gap-8 ">
           <div className="space-y-6">
             <div className="space-y-2">
               <Image src={clickupbrain} alt="logo" className="  bg-opacity-30" />

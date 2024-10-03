@@ -31,7 +31,7 @@ export function ProjectManag() {
             See all teams
           </button>
         </div>
-        <div className="bg-white rounded-xl w-[55vw]  shadow-lg p-8">
+        <div className="bg-white rounded-xl lg:w-[55vw]  shadow-lg p-8">
           <div className="grid md:grid-cols-2 gap-8">
             <div className="md:col-span-1 space-y-6">
               <h2 className="text-xl font-bold text-gray-900">Deliver projects on time, every time</h2>
