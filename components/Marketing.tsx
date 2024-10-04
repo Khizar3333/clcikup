@@ -4,20 +4,25 @@ import marketing from "@/app/assets/images/marketing.png"
 import Image from "next/image";
 import { ArrowRight, Divide } from 'lucide-react'
 import clickupbrain from "@/app/assets/images/clicckupbrain.svg"
+import marketingmob from "@/app/assets/images/marketingmob.webp"
+
 
 export function Marketing() {
   return (
-    <div className="w-full  max-w-4xl mx-auto border rounded-xl herofont border-r-pink-400 border-t-pink-500 border-opacity-50  "
+    <div className="mx-2 sm:mx-0">
+
+    
+    <div className="w-full overflow-hidden   max-w-4xl mx-auto border rounded-xl herofont border-r-pink-400 border-t-pink-500 border-opacity-50  "
     
     
     >
       <div 
-        className="relative   overflow-hidden  rounded-3xl p-8 shadow-lg "
+        className="relative overflow-hidden   rounded-3xl p-8 shadow-lg "
        
       >
-        <Image src={marketing} alt="marketing" className="absolute   inset-0 bg-opacity-30" />
-        <div className="  grid grid-cols-1 md:grid-cols-2 gap-8 ">
-          <div className="space-y-6">
+        <Image src={marketing} alt="marketing" className="hidden md:block absolute object-contain   inset-0 bg-opacity-30" />
+        <div className="  grid grid-cols-1 md:grid-cols-2 gap-8  ">
+          <div className=" space-y-6 ">
             <div className="space-y-2">
               <Image src={clickupbrain} alt="logo" className="  bg-opacity-30" />
               <h2 className="text-4xl font-bold">
@@ -52,7 +57,10 @@ export function Marketing() {
           </div>
          
         </div>
+
+        <Image src={marketingmob} alt="marketing" className=" mt-4 md:hidden   inset-0 bg-opacity-30" />
       </div>
+    </div>
     </div>
   )
 }

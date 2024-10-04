@@ -14,10 +14,10 @@ import { PiSpeedometerThin } from "react-icons/pi";
 
 export function Footer() {
   return (
-    <footer className="border flex flex-col text-gray-600 text-sm ">
+    <footer className="border  text-gray-600 text-sm ">
       <div className="border-t border-b flex  justify-start pl-3 lg:pl-0 lg:justify-center  border-gray-200"> 
       
-        <div className="flex justify-between flex-wrap axifoma space-x-24 items-center py-4 ">
+        <div className="flex flex-col xl:flex-row space-y-2 xl:space-y-0 justify-between  axifoma space-x-24 items-center py-4 ">
           <div className="flex items-center space-x-2 ">
             <Image src={clickupfooter} alt="clickup" className="w-5 h-5 " />
             <span className='text-sm lg:text-base font-semibold text-[#0c1947]'>The everything app for work.</span>
@@ -53,7 +53,7 @@ export function Footer() {
         </div>
       </div> {/* End of top banner */}
       {/* Main footer content */}
-      <div className='border-t border-gray-200 bg-gray-100  py-8'>
+      <div className='border-t border-gray-200 px-3 bg-gray-100  py-8'>
 
       <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 py-8 lg:px-[310px] ">
         <div>
