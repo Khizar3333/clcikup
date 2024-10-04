@@ -96,15 +96,30 @@ body {
   font-family: 'Axifoma', sans-serif;
 }
 
-/* .aftereffect::after{
-  content: " ";
-  z-index: -2;
-   inset-block-end: 0;
-  inset-inline-start: -17px;
-  inline-size: 140cqw;
-  block-size: 70cqw; 
-  transform: translateY(30%) rotate(-14deg); 
-  background-image: radial-gradient(rgba(250, 18, 227, .2), transparent 75%);
-  mix-blend-mode: soft-light;
+
+.gridgr{
+  background: linear-gradient(352deg, #5037E7 6.96%, #EB00FF 107.25%);
+
+}
+.gridgr2{
+  background:  linear-gradient(170deg, #6731EC 1.65%, #44CFFF 118.4%);
+}
+.gridgr3{
+background:   linear-gradient(351deg, #5037E7 12.36%, #EB00FF 124.69%);
+
+}
+/* .gridgr3::before{
+  content: "";
+  background: url("../app/assets/images/or.svg");
+  background-repeat: no-repeat;
+  transform: translate(-50%, -50%);
+  background-position: 50%;
+  background-size: contain;
+  
+  position: absolute;
+  inline-size: 100%;
+  block-size: 100%;
+  inset-inline-start: 41%;
+  inset-block-start: 50%;
 } */
 
