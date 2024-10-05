@@ -1,7 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap');
+
 
 body {
   font-family: var(--font-geist-axifoma),Arial, Helvetica, sans-serif;
@@ -108,18 +109,33 @@ body {
 background:   linear-gradient(351deg, #5037E7 12.36%, #EB00FF 124.69%);
 
 }
-/* .gridgr3::before{
+.gridgr4::before{
   content: "";
-  background: url("../app/assets/images/or.svg");
+  background: url("/or.svg");
   background-repeat: no-repeat;
   transform: translate(-50%, -50%);
   background-position: 50%;
   background-size: contain;
-  
+  /* background-position: center; */
   position: absolute;
   inline-size: 100%;
   block-size: 100%;
   inset-inline-start: 41%;
   inset-block-start: 50%;
+  /* z-index: -1; */
+  
+}
+/* .relatives::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/or.svg'); 
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5; 
+  z-index: -1;
 } */
 

@@ -4,13 +4,16 @@ import grid1 from "@/app/assets/images/grid1.png"
 import grid2 from "@/app/assets/images/grid2.png"
 import grid3 from "@/app/assets/images/grid3.svg"
 import grid4 from "@/app/assets/images/grid4.svg"
+import grid6 from "@/app/assets/images/grid6.png"
+
+import or from "@/app/assets/images/or.svg"
 
 import { GridCard } from "./GridCard"
 
 export function Grid() {
   return (
     <div className="container mx-auto px-4 py-16">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 px-32">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:px-32">
         {/* AI-powered productivity */}
         <div className="gridgr text-white p-6 rounded-xl">
           <h3 className="text-xl font-bold mb-2">AI-powered productivity</h3>
@@ -49,32 +52,63 @@ export function Grid() {
         {/* Plays well with others */}
         
 
-        <div className="gridgr3 flex   text-white p-6 rounded-xl  md:col-span-2 ">
-          <div className="">
+        <div className="gridgr3  flex text-white  relatives rounded-xl md:col-span-2">
 
-          <h3 className="text-xl font-bold mb-2">Plays well with others</h3>
-          <p className="mb-4">Easily integrates with the tools you already use.</p>
-          <Image src={grid3}  alt="Plays well with others" className="w-full object-cover " />
-          </div>
-          {/* <div className="grid grid-cols-4 gap-4">
-            {[...Array(8)].map((_, i) => (
-              <div key={i} className="bg-white p-2 rounded-full">
-                <div className="w-8 h-8 bg-gray-300 rounded-full"></div>
-              </div>
-            ))}
-          </div> */}
-        </div>
+          
+  <div className=" flex gap-3 items-center w-full">
+    <div className="flex  items-center">
+
+    <div className=" flex flex-col items-center pt-5 pl-4">
+      <h3 className="text-xl font-bold mb-2">Plays well with others</h3>
+      <p className="mb-4 w-[60%]">Easily integrates with the tools you already use.</p>
+      <Image src={grid3} alt="Plays well with others" className="w-fit" />
+    </div>
+
+    {/* Center Image */}
+    <Image 
+      src={or} // Replace with your center image source
+      alt="Center Image" 
+      className="h-full w-auto pr-8" // Adjust height as needed
+    />
+    </div>
+
+    <div className=" flex flex-col items-center pt-5 pr-5">
+      <h3 className="text-xl font-bold mb-2">Plays well with others</h3>
+      <p className="mb-4 w-1/2">Easily integrates with the tools you already use.</p>
+      <Image src={grid4} alt="Plays well with others" className="w-fit" />
+    </div>
+  </div>
+</div>
+
+       
 
         {/* Search everything */}
-        <div className="bg-[#18181b] text-white p-6 rounded-xl">
-          <h3 className="text-xl font-bold mb-2">Search everything</h3>
-          <p className="mb-4">Find any file in ClickUp, a connected app, or your local drive, from one place.</p>
-          <Image src="/placeholder.svg?height=150&width=300" height={150} width={300} alt="Search functionality" className="w-full" />
-        </div>
+        
+
+
+        <div className="w-full max-w-md overflow-hidden rounded-xl bg-[#18181b] text-white shadow-lg">
+      <div className="p-6">
+        <h2 className="text-2xl font-bold mb-2">Search everything</h2>
+        <p className="text-sm mb-4">
+        Find any file in ClickUp, a connected app, or 
+          <br /> your local drive, from one place.
+          
+        </p>
+        
+      </div>
+      <div className="relative bottom-20 w-full left-5 h-[100%] ">
+        <Image
+          src={grid6}
+          alt="Task management interface"
+          layout="fill"
+          className="rounded-tl-xl  object-contain shadow-md"
+        />
+      </div>
+    </div>
 
 
         {/* Stay ahead of what's next */}
-        <div className="bg-[#ec4899] text-white p-6 rounded-xl md:row-span-3 md:col-span-1">
+        <div className="bg-[#ec4899] text-white p-6 rounded-xl lg:row-span-3 md:col-span-1">
           <h3 className="text-xl font-bold mb-2">Stay ahead of what's next</h3>
           <p className="mb-4">Organize your work, reminders, and calendar events all from your personalized Home.</p>
           <Image src="/placeholder.svg?height=150&width=600" height={150} width={600} alt="Personalized home view" className="w-full" />

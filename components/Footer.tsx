@@ -159,14 +159,14 @@ export function Footer() {
         {/* <div className="flex flex-wrap  space-x-2 px-36 "> */}
         <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4  space-x-2 px-36 ">
 
-          <Link href="#" className="">
+          <Link href="#" className="w-[50vw] md:w-full">
     <Image src={applstore} alt="applestore" className="  object-cover" />
                  
             
             
           </Link>
-          <Link href="#" className="">
-    <Image src={playstore} alt="playstore" className="  object-cover" />
+          <Link href="#" className="w-[50vw] md:w-full   ">
+    <Image src={playstore} alt="playstore" className=" object-cover" />
             
           </Link>
           <Link href="#" className="hidden sm:block">

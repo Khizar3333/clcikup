@@ -5,7 +5,7 @@ import { LiaToggleOnSolid } from "react-icons/lia";
 
 export function GridCard() {
   return (
-    <div className="w-full max-w-md p-6 rounded-3xl gridgr2 text-white shadow-lg">
+    <div className="w-full max-w-md p-6 rounded-3xl gridgr2 hidden lg:block text-white shadow-lg">
       <h2 className="text-2xl font-bold mb-1">Customize in a click</h2>
       <p className="text-sm mb-6 opacity-90">
         Configuring Clockify to different types of work is as easy as flipping a switch.
