@@ -1,4 +1,3 @@
-'use client'
 
 import Link from 'next/link'
 import Image from 'next/image'
@@ -14,7 +13,7 @@ import { PiSpeedometerThin } from "react-icons/pi";
 
 export function Footer() {
   return (
-    <footer className="border  text-gray-600 text-sm ">
+    <footer className="border overflow-hidden text-gray-600 text-sm ">
       <div className="border-t border-b flex  justify-start pl-3 lg:pl-0 lg:justify-center  border-gray-200"> 
       
         <div className="flex flex-col xl:flex-row space-y-2 xl:space-y-0 justify-between  axifoma space-x-24 items-center py-4 ">

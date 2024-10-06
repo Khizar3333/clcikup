@@ -7,7 +7,7 @@ export function ProjectManag() {
   const [activeIndex, setActiveIndex] = useState<number>(0); 
 
   return (
-    <section className="w-fit mx-auto py-12 md:py-24 lg:py-32 ">
+    <section className="hidden md:block w-fit mx-auto py-12 md:py-24 lg:py-32 ">
       <div className="container px-4 md:px-6 mx-auto">
         <div className="flex flex-wrap justify-center gap-4 mb-8">
           {[

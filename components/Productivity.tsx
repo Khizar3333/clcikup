@@ -2,9 +2,13 @@
 import axifoma from 'next/font/local'
 import Image from 'next/image'
 import productivity from "@/app/assets/images/productivity.avif"
+// import marketing from "../app/assets/images/marketing.png"
+ 
 export default function Productivity() {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32 xl:py-48 bg-white ">
+    <>
+    
+    <section className="hidden md:block w-full mt-44   bg-white ">
       <div className=" px-4 md:px-6">
       <div className="space-y-2 flex flex-col items-center justify-center">
               <h1 className="text-xl text-center font-black tracking-tighter sm:text-2xl xl:text-3xl/none text-[#1d1e31]">
@@ -20,12 +24,12 @@ export default function Productivity() {
                 </span>
               </p>
             </div>
-        <div className="flex flex-col lg:flex-row gap-8 lg:justify-center lg:pl-48  mt-14">
+        <div className="flex flex-col lg:flex-row gap-8  lg:pl-48  mt-20">
        
-          <div className="flex flex-col justify-center space-y-8">
+          <div className="flex flex-col  space-y-8">
             
             <div className="space-y-2">
-            <h2 className="tracking-tighter font-black sm:text-2xl textgr bg-clip-text text-transparent">
+            <h2 className="tracking-tighter font-black text-2xl textgr  text-transparent">
                 Improve collaboration
               </h2>
               <p className="max-w-[600px] text-gray-600 ">
@@ -53,7 +57,15 @@ export default function Productivity() {
               </h2>
             </div>
           </div>
-          <div className="flex items-center justify-center">
+          <div>
+
+          <div className='  gr5 rounded-xl   z-10'>
+         
+
+         </div>
+    <Image src={productivity} alt="workui" className="  overflow-hidden rounded-xl  z-50 relative left-5  bottom-[33rem]    shadow-md " />
+          </div>
+          {/* <div className="flex items-center justify-center">
             <Image
               alt="Productivity tool interface"
               className="aspect-video overflow-hidden rounded-xl object-cover object-center"
@@ -61,9 +73,11 @@ export default function Productivity() {
               src={productivity}
               width="600"
             />
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
+    
+    </>
   )
 }

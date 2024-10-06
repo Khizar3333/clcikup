@@ -21,7 +21,7 @@ export default function Component() {
   ]
 
   return (
-    <div className="min-h-screen max-w-[100vw] w-fit flex flex-col  p-4 sm:p-8 md:p-8 overflow-hidden">
+    <div className=" max-w-[100vw] w-fit flex flex-col  p-4 sm:p-8 md:p-8 overflow-hidden">
      
       <nav className=" bg-opacity-80 backdrop-blur-sm mx-auto rounded-t-xl z-10  ">
         <div className="max-w-full mx-auto px-4 sm:px-8 lg:px-8">
@@ -52,11 +52,17 @@ export default function Component() {
       </nav>
       
 
-      <main className="mt-10 rounded-b-xl z-40 ">
+      <main className="mt-10 rounded-b-xl   ">
         <div className='flex justify-center   '>
 
    <Image src={workui} alt="workui" className=" lg:w-[50%]  rounded-lg shadow-md " />
         </div>
+
+        {/* <div className='h-[32rem]  gr5 rounded-xl   z-10'>
+         
+
+     </div>
+<Image src={workui} alt="workui" className=" lg:w-[50%]  z-50 relative bottom-[32rem] left-6   rounded-xl shadow-md " /> */}
       </main>
     </div>
   )

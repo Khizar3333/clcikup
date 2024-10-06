@@ -16,7 +16,7 @@ export default function Hero() {
         <Link
           href="#"
           
-          className="inline-block px-24 py-4 text-lg sm:text-2xl font-bold text-white rounded-xl from-blue-500 bghero hover:to-purple-700 transition-all duration-200 shadow-lg   hover:shadow-xl"
+          className="inline-block  lg:px-24 py-4 text-[11px] px-11 lg:text-2xl font-semibold text-white rounded-xl from-blue-500 bghero hover:to-purple-700 transition-all duration-200 shadow-lg   hover:shadow-xl"
           
         >
           Get Started, It&apos;s FREE →
