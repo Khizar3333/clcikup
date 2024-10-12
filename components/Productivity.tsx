@@ -8,7 +8,7 @@ export default function Productivity() {
   return (
     <>
     
-    <section className="hidden md:block w-full mt-44   bg-white ">
+    <section id='Product' className="hidden md:block w-full mt-44   bg-white ">
       <div className=" px-4 md:px-6">
       <div className="space-y-2 flex flex-col items-center justify-center">
               <h1 className="text-xl text-center font-black tracking-tighter sm:text-2xl xl:text-3xl/none text-[#1d1e31]">
@@ -50,30 +50,21 @@ export default function Productivity() {
               <h2 className="text-2xl font-extrabold tracking-tighter sm:text-3xl bg-gray-400 bg-clip-text text-transparent">
                 Enhance visibility
               </h2>
-            {/* </div> */}
-            {/* <div className="space-y-2"> */}
+            
               <h2 className="text-2xl font-extrabold tracking-tighter sm:text-3xl  bg-gray-400 bg-clip-text text-transparent">
                 Automate work
               </h2>
             </div>
           </div>
-          <div>
+          <div className='md:h-[700px]'>
 
-          <div className='  gr5 rounded-xl   z-10'>
+          <div className='  gr5 rounded-xl   '>
          
 
          </div>
-    <Image src={productivity} alt="workui" className="  overflow-hidden rounded-xl  z-50 relative left-5  bottom-[33rem]    shadow-md " />
+    <Image src={productivity} alt="workui" className="  overflow-hidden rounded-xl   relative left-5  bottom-[33rem]    shadow-md " />
           </div>
-          {/* <div className="flex items-center justify-center">
-            <Image
-              alt="Productivity tool interface"
-              className="aspect-video overflow-hidden rounded-xl object-cover object-center"
-              height="400"
-              src={productivity}
-              width="600"
-            />
-          </div> */}
+         
         </div>
       </div>
     </section>

@@ -17,7 +17,7 @@ import { GridMob } from "./GridMob"
 
 export function Grid() {
   return (
-    <><div className=" hidden md:block mx-auto px-4 py-16">
+    <><div id="Pricing" className=" hidden md:block mx-auto px-4 py-16">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:px-32">
         {/* AI-powered productivity */}
         <div className="gridgr text-white p-6 rounded-xl">
@@ -36,17 +36,18 @@ export function Grid() {
               <br /> views including list, board, gantt,
               <br /> and more.
             </p>
+           
 
           </div>
-          <div className="relative h-[100%] ">
+          <div className="relative  h-[100%] ">
             <Image
               src={grid2}
               alt="Task management interface"
               layout="fill"
-              className="rounded-tl-xl object-fill  shadow-md" />
+              className="rounded-tl-xl  w-fit shadow-md" />
           </div>
         </div>
-
+ 
         {/* Customize in a click */}
         {/* <div > */}
 

@@ -21,7 +21,7 @@ export default function Component() {
   ]
 
   return (
-    <div className=" max-w-[100vw] w-fit flex flex-col  p-4 sm:p-8 md:p-8 overflow-hidden">
+    <div id='Enterprise' className=" max-w-[100vw] w-fit flex flex-col  p-4 sm:p-8 md:p-8 overflow-hidden">
      
       <nav className=" bg-opacity-80 backdrop-blur-sm mx-auto rounded-t-xl z-10  ">
         <div className="max-w-full mx-auto px-4 sm:px-8 lg:px-8">

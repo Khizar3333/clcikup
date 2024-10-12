@@ -9,7 +9,7 @@ import marketingmob from "@/app/assets/images/marketingmob.webp"
 
 export function Marketing() {
   return (
-    <div className="mx-2 md:mx-0 mb-[18rem]">
+    <div  className="mx-2 md:mx-0 ">
 
     
     <div className="w-full overflow-hidden   max-w-4xl mx-auto border rounded-xl herofont border-r-pink-400 border-t-pink-500 border-opacity-50  "

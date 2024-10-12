@@ -83,7 +83,7 @@ export default function Team() {
   }, [emblaApi, onSelect])
 
   return (
-    <section className="herofont w-full py-12 md:py-24 lg:py-32 bg-white">
+    <section id='Resources' className="herofont w-full py-12 md:py-24 lg:py-32 bg-white">
       <div className=" px-4 md:px-6">
         <div className="text-center mb-10">
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl text-[#1d1e31]">Perfect fit for every team</h2>

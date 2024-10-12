@@ -7,6 +7,9 @@
 body {
   font-family: var(--font-geist-axifoma),Arial, Helvetica, sans-serif;
 }
+html {
+  scroll-behavior: smooth;
+}
 /* 
 @layer utilities {
   .text-balance {
@@ -116,14 +119,14 @@ background:   linear-gradient(351deg, #5037E7 12.36%, #EB00FF 124.69%);
 
 
 .gr5{
-  inset-block-start: -8px;
-    inset-block-end: 0;
+  /* inset-block-start: -8px;
+    inset-block-end: 0; */
     overflow: hidden;
-    inline-size: 840px;
+    /* inline-size: 840px; */
     block-size: 562px;
   background: linear-gradient(247deg, #fa12e3 17.39%, #7612fa 64.22%, #12d0fa 97.73%);
     box-shadow: 0 3px 20px 0 rgba(67, 46, 134, .1);
-    will-change: transform;
+    /* will-change: transform; */
 }
 
 
